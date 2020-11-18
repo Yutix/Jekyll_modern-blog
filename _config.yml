@@ -1,7 +1,7 @@
 # Site settings
-title: Yutix
-description: Modern-Blog A Elegant template for Jekyll
-keywords: Modern, Blogging, Fun
-author: Wferr
+title: Yutix News
+description: Berita Terkini, Terupdate
+keywords: Yutix, Yutixcode, Yvtix
+author: Yutix
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
