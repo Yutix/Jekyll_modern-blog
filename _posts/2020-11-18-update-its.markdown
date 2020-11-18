@@ -16,3 +16,7 @@ Akhirnya Aing menyelesaikan project melelahkan ini, rare script nih jadi wajar k
 
 Alesan gua jual mahal script ini karena scan nya lebih cepat dari script2 gua yg sebelumnya, jadi lu bisa scan ribuan nim tanpa waktu yg lama, terus biar gak cepet coid juga. Tapi script nya gak gua bikin auto dari link forlap, kenapa? Biar yg serakah2 pada cemberut, emang sih lebih enak pake yg auto dari link forlap tapi emang lu mau its diratain pembeli pertama?
 
+Buat kang decrypt kalian jangan coba main2 dah, takut nanti nyesel bang. Daripada lu pengen untung pake karya orang mending lu rakit m3m3k dah sana.
+
+Beli sekarang juga mumpung masih fresh ;)
+- Download sc nya disini: <https://sfile.mobi/1gH4tVCIus8>
