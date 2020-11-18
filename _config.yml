@@ -1,7 +1,7 @@
 # Site settings
 title: Yutix News
-description: Berita Terkini, Terupdate
+description: Informasi Kumaha Aing Terupdate
 keywords: Yutix, Yutixcode, Yvtix
 author: Yutix
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+baseurl: ""
+url: ""
