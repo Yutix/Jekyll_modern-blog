@@ -10,3 +10,7 @@ date:   2020-11-18 12:12:12
 ### Script Scan ITS Ready
 Akhirnya Aing menyelesaikan project melelahkan ini, rare script nih jadi wajar kalo mahal awokawok.
 
+### Screencrot
+![Mantepwoi](/img/ss-its1.jpg)
+![Mantepwoi](/img/ss-its2.jpg)
+
