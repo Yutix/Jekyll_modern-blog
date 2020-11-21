@@ -4,7 +4,7 @@ subtitle: "Siapa cepat, dia dapat"
 author: "Yutix"
 avatar: "img/aing/1.png"
 image: "img/1234.jpg"
-date:   2020-11-21 12:12:12
+date:   2020-11-21 12:13:12
 ---
 
 ### Giveaway Lagi Slur
