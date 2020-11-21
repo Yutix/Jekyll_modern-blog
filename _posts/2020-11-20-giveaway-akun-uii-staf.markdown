@@ -3,7 +3,7 @@ title:  "Giveaway 5 Akun UII Staf"
 subtitle: "Bang Yutix lagi baik nih"
 author: "Yutix"
 avatar: "img/aing/1.png"
-image: "img/1234.jpg"
+image: "img/12345.jpg"
 date:   2020-11-20 12:12:12
 ---
 
