@@ -1,0 +1,143 @@
+<html>
+
+	<head>
+		<style>
+			body {
+				font-family: Arial;
+				width: 100%;
+				padding: 50px;
+			}
+			
+			a {
+				text-decoration: none
+			}
+			
+			.comment-form-container {
+				background: #F0F0F0;
+				border: #e0dfdf 1px solid;
+				padding: 30px;
+				border-radius: 2px;
+			}
+			
+			.input-row {
+				margin-bottom: 20px;
+			}
+			
+			.input-field {
+				width: 100%;
+				border-radius: 2px;
+				padding: 10px;
+				border: #e0dfdf 1px solid;
+			}
+			
+			.btn-submit {
+				padding: 10px 20px;
+				background: #333;
+				border: #1d1d1d 1px solid;
+				color: #f0f0f0;
+				font-size: 0.9em;
+				width: 100px;
+				border-radius: 2px;
+				cursor:pointer;
+			}
+			
+			ul {
+				list-style-type: none;
+			}
+			
+			.comment-row {
+				border-bottom: #e0dfdf 1px solid;
+				margin-bottom: 15px;
+				padding: 15px;
+			}
+			
+			.outer-comment {
+				background: #F0F0F0;
+				padding: 20px;
+				border: #dedddd 1px solid;
+			}
+			
+			span.commet-row-label {
+				font-style: italic;
+			}
+			
+			span.posted-by {
+				color: #09F;
+			}
+			
+			.comment-info {
+				font-size: 0.8em;
+			}
+			.comment-text {
+				margin: 10px 0px;
+			}
+			.btn-reply {
+				font-size: 0.8em;
+				text-decoration: underline;
+				color: #888787;
+				cursor:pointer;
+			}
+			#comment-message {
+				margin-left: 20px;
+				color: #189a18;
+				display: none;
+			}
+		</style>
+		
+		<title>GIVEAWAY PAGE, YutixGift</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	</head>
+	
+	<body>
+		<div style="padding-bottom:30px;text-align:right;">
+			<a href="https://yutix.github.io" class="btn-submit">< Kembali</a>
+		</div>
+		<div class="comment-form-container">
+			<h1>YutixGift</h1>
+			<form id="frm-comment">
+				<div class="input-row">
+					<input type="hidden" name="comment_id" id="commentId" value="0" placeholder="Nama" />
+					<input class="input-field" type="text" name="name" id="name" placeholder="Nama" />
+				</div>
+				<div class="input-row">
+					<textarea class="input-field" type="text" name="comment" id="comment" placeholder="No WA, awalan 0"></textarea>
+				</div>
+				<div>
+					<input type="button" class="btn-submit" id="submitButton" value="Daftar" />
+				</div>
+			</form>
+		</div>
+		
+		<script>
+			$("#submitButton").click(function () {
+				   $("#comment-message").css('display', 'none');
+				var str = $("#frm-comment").serialize();
+				alert("Success.");
+		
+				$.ajax({
+					url: "https://test-yvtix.000webhostapp.com/giveaway/api/comment-add.php",
+					data: str,
+					type: 'post',
+					success: function (response)
+					{
+						var result = eval('(' + response + ')');
+						if (response)
+						{
+							$("#comment-message").css('display', 'inline-block');
+							$("#name").val("");
+							$("#comment").val("");
+							$("#commentId").val("");
+					 	   listComment();
+						} else
+						{
+							alert("Failed to add comments !");
+							return false;
+						}
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html>
