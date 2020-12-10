@@ -21,4 +21,4 @@ Alesan gua jual mahal script ini karena scan nya lebih cepat dari script2 gua yg
 
 **Beli sekarang juga mumpung masih fresh ;)**
 - Download sc nya disini: <https://sfile.mobi/1gH4tVCIus8>
-<https://yvtix.xyz>
+<https://www.yvtix.xyz/p/key.html?m=1>
